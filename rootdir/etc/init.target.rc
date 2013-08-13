@@ -5,3 +5,5 @@ on boot
     # LiveDisplay
     chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
+ 
+    chmod 0644 /proc/cmdline
