@@ -1,0 +1,2 @@
+on post-fs
+    mount none /system/lib/mtk-ril.so /vendor/lib/mtk-ril.so bind
