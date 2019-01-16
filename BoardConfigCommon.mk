@@ -56,6 +56,9 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/recovery.fstab
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+
 # Treble
 BOARD_VNDK_VERSION  := current
 BOARD_VNDK_RUNTIME_DISABLE := true
