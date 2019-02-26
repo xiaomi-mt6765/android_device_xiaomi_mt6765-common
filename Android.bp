@@ -1,2 +1,2 @@
-subdirs = [ "vendor" ]
+subdirs = [ "vendor", "cmds" ]
 

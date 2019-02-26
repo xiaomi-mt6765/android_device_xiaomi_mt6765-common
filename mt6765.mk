@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
 
 # MTK
 PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.radio@2.0
+    vendor.mediatek.hardware.radio@2.0 \
+    mtk-sms-fwk-ready
 
 # Net
 PRODUCT_PACKAGES += \
