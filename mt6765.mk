@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# MTK
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.radio@2.0
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
