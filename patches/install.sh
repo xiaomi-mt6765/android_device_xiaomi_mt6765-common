@@ -3,6 +3,7 @@
 ROOT="${PWD}"
 REPOSITORIES=(
     'frameworks/opt/telephony'
+    'frameworks/base'
  )
 
 for repository in "${REPOSITORIES[@]}"; do
