@@ -26,5 +26,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
     $(LOCAL_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl
 
+# VNDK
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vndk/ld.config.26.txt:system/etc/ld.config.26.txt \
+    $(LOCAL_PATH)/vndk/vndk.rc:system/etc/init/vndk.rc
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
