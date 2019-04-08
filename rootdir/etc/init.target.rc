@@ -1,2 +1,10 @@
-on post-fs
+on init
     mount none /system/lib/mtk-ril.so /vendor/lib/mtk-ril.so bind
+
+    # force properties for mtkmal
+    setprop persist.mtk_ims_support 0
+    setprop persist.mtk_epdg_support 0
+
+on property:vold.decrypt=trigger_restart_framework
+    setprop persist.mtk_ims_support 0
+    setprop persist.mtk_epdg_support 0
