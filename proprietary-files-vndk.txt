@@ -32,6 +32,7 @@ lib/android.hardware.media.omx@1.0.so:lib/vndk-26/android.hardware.media.omx@1.0
 lib/android.hardware.memtrack@1.0.so:lib/vndk-26/android.hardware.memtrack@1.0.so \
 lib/android.hardware.power@1.0.so:lib/vndk-26/android.hardware.power@1.0.so \
 lib/android.hardware.radio@1.0.so:lib/vndk-26/android.hardware.radio@1.0.so \
+lib/android.hardware.radio@1.1.so:lib/vndk-26/android.hardware.radio@1.1.so \
 lib/android.hardware.radio.deprecated@1.0.so:lib/vndk-26/android.hardware.radio.deprecated@1.0.so \
 lib/android.hardware.sensors@1.0.so:lib/vndk-26/android.hardware.sensors@1.0.so \
 lib/android.hardware.soundtrigger@2.0.so:lib/vndk-26/android.hardware.soundtrigger@2.0.so \
@@ -42,6 +43,7 @@ lib/android.hardware.tv.input@1.0.so:lib/vndk-26/android.hardware.tv.input@1.0.s
 lib/android.hardware.vibrator@1.0.so:lib/vndk-26/android.hardware.vibrator@1.0.so \
 lib/android.hardware.vr@1.0.so:lib/vndk-26/android.hardware.vr@1.0.so \
 lib/android.hardware.wifi@1.0.so:lib/vndk-26/android.hardware.wifi@1.0.so \
+lib/android.hardware.wifi@1.1.so:lib/vndk-26/android.hardware.wifi@1.1.so \
 lib/android.hardware.wifi.supplicant@1.0.so:lib/vndk-26/android.hardware.wifi.supplicant@1.0.so \
 lib/android.hidl.allocator@1.0.so:lib/vndk-26/android.hidl.allocator@1.0.so \
 lib/android.hidl.token@1.0.so:lib/vndk-26/android.hidl.token@1.0.so \
