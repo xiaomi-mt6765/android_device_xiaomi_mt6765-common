@@ -35,6 +35,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
     $(LOCAL_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl
 
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # VNDK
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vndk/ld.config.26.txt:system/etc/ld.config.26.txt \
