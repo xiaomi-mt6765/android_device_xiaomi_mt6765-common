@@ -1,0 +1,5 @@
+# Audio
+lib/libmtkaudio_utils.so
+
+# Camera
+lib/libgraphics2d_ext.so
