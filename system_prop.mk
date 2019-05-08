@@ -11,6 +11,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.sf.enable_gl_backpressure=1
 
+# Media
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+   media.stagefright.thumbnail.prefer_hw_codecs=true
+
 # OMX
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
    debug.stagefright.omx_default_rank.sw-audio=1 \
