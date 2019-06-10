@@ -1,5 +1,6 @@
 on init
     mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
+    mount none /system/etc/init/hw/init.mt6765.rc /vendor/etc/init/hw/init.mt6765.rc bind
 
     # force properties for mtkmal
     setprop persist.mtk_ims_support 0
