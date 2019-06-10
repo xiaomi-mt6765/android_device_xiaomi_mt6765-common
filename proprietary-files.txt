@@ -10,4 +10,9 @@ lib/libshowlogo.so
 lib/libsysenv_system.so
 
 # RIL
+lib/libradio.so
+lib/libradioservice.so
+lib64/libmtk-ril.so
+lib64/librilfusion.so
 vendor/lib/libmtk-ril.so:lib/libmtk-ril.so
+vendor/lib/librilfusion.so:lib/librilfusion.so
