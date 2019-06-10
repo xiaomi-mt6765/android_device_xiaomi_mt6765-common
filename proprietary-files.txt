@@ -4,5 +4,10 @@ lib/libmtkaudio_utils.so
 # Camera
 lib/libgraphics2d_ext.so
 
+# Offline Charging
+bin/kpoc_charger
+lib/libshowlogo.so
+lib/libsysenv_system.so
+
 # RIL
 vendor/lib/libmtk-ril.so:lib/libmtk-ril.so

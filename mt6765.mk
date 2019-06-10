@@ -36,7 +36,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    init.mt6765.rc \
+    kpoc_charger.rc
 
 # Input
 PRODUCT_COPY_FILES += \

@@ -1,0 +1,5 @@
+on charger
+    start kpoc_charger
+
+service kpoc_charger /system/bin/kpoc_charger
+    class charger
