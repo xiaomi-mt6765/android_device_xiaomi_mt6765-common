@@ -21,7 +21,7 @@ set -e
 DEVICE=mt6765-common
 VENDOR=xiaomi
 
-INITIAL_COPYRIGHT_YEAR=2016
+INITIAL_COPYRIGHT_YEAR=2019
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -44,7 +44,6 @@ write_headers
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt true
-write_makefiles "$MY_DIR"/proprietary-files-vndk.txt true
 
 # We are done!
 write_footers

@@ -14,6 +14,11 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# GPS
+PRODUCT_PACKAGES += \
+    libcurl \
+    libandroid_net
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -55,9 +60,8 @@ PRODUCT_PACKAGES += \
 -include $(LOCAL_PATH)/system_prop.mk
 
 # VNDK
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vndk/ld.config.26.txt:system/etc/ld.config.26.txt \
-    $(LOCAL_PATH)/vndk/vndk.rc:system/etc/init/vndk.rc
+PRODUCT_PACKAGES += \
+    vndk_package
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
