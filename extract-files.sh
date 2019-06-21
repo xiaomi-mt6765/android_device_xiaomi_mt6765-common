@@ -58,7 +58,6 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
-extract "$MY_DIR"/proprietary-files-vndk.txt "$SRC" "$SECTION"
 
 # Hack MTK RIL libs for USSD and incoming calls
 # see https://github.com/phhusson/treble_experimentations/issues/57#issuecomment-416998086
