@@ -39,8 +39,7 @@ endif
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc \
-    kpoc_charger.rc
+    init.target.rc
 
 # Input
 PRODUCT_COPY_FILES += \

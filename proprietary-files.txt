@@ -6,6 +6,7 @@ lib/libgraphics2d_ext.so
 
 # Offline Charging
 bin/kpoc_charger
+etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 lib/libsysenv_system.so
 
