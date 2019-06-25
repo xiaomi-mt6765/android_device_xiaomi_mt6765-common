@@ -3,6 +3,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 COMMON_PATH := device/xiaomi/mt6765-common
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(COMMON_PATH)/framework_compatibility_matrix.xml
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
