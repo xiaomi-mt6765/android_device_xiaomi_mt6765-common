@@ -1,4 +1,5 @@
 BOARD_VENDOR := xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 COMMON_PATH := device/xiaomi/mt6765-common
 
