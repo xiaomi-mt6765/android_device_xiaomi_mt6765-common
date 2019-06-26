@@ -213,4 +213,7 @@
    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
    <bool name="config_showNavigationBar">true</bool>	
+
+   <!-- Enable round icons -->
+   <bool name="config_useRoundIcon">true</bool>
 </resources>
