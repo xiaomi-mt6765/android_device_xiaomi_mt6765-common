@@ -1,3 +1,7 @@
+on init
+    # Override fingerprint
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint}
+
 on boot
     # DT2W
     write /proc/gesture/onoff 1
