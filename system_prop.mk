@@ -7,6 +7,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
    ro.config.system_vol_steps=15 \
    ro.config.ring_notification_vol_steps=15
 
+# Graphics
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.sf.enable_gl_backpressure=1
+
 # OMX
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
    debug.stagefright.omx_default_rank.sw-audio=1 \
