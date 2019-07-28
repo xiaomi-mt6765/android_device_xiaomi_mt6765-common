@@ -7,12 +7,6 @@ on boot
     write /proc/gesture/onoff 1
 
 on init
-    mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
-    mount none /system/lib/librilfusion.so /vendor/lib/librilfusion.so bind
-    mkdir /vendor/lib64
-    mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind
-    mount none /system/lib64/librilfusion.so /vendor/lib64/librilfusion.so bind
-
     # force properties for mtkmal
     setprop persist.mtk_ims_support 0
     setprop persist.mtk_epdg_support 0
