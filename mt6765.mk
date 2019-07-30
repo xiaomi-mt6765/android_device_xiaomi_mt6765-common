@@ -19,11 +19,6 @@ PRODUCT_PACKAGES += \
     libcurl \
     libandroid_net
 
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0
-
 # MTK
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.radio@2.0 \
