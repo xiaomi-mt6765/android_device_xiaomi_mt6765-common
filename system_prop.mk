@@ -5,7 +5,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libpath=mtk-ril.so \
-    rild.libargs=-d/dev/ttyC0
+    vendor.rild.libpath=mtk-ril.so \
+    vendor.rild.libargs=-d/dev/ttyC0
 
 
