@@ -16,11 +16,6 @@ PRODUCT_PACKAGES += \
     libcurl \
     libandroid_net
 
-# MTK
-PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.radio@2.0 \
-    mtk-sms-fwk-ready
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
