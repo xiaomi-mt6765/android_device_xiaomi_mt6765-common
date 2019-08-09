@@ -1,18 +1,3 @@
-on init
-    # Override fingerprint
-    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint}
-
 on boot
     # DT2W
     write /proc/gesture/onoff 1
-
-on init
-    # force properties for mtkmal
-    setprop persist.mtk_ims_support 0
-    setprop persist.mtk_epdg_support 0
-
-    setprop persist.sys.phh.radio.force_cognitive true
-
-on property:vold.decrypt=trigger_restart_framework
-    setprop persist.mtk_ims_support 0
-    setprop persist.mtk_epdg_support 0
