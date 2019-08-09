@@ -31,8 +31,7 @@ endif
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc \
-    patch_ril.sh
+    init.target.rc
 
 # Input
 PRODUCT_COPY_FILES += \
