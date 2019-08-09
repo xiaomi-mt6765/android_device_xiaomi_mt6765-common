@@ -10,6 +10,9 @@ TARGET_CPU_VARIANT := cortex-a53
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Audio
+USE_XML_AUDIO_POLICY_CONF := 1
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 androidboot.configfs=true androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40000000
@@ -68,3 +71,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 BOARD_VNDK_VERSION  := current
 BOARD_VNDK_RUNTIME_DISABLE := true
 TARGET_COPY_OUT_VENDOR := vendor
+PRODUCT_FULL_TREBLE_OVERRIDE := true
