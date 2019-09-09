@@ -51,6 +51,8 @@ PRODUCT_PACKAGES += \
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
