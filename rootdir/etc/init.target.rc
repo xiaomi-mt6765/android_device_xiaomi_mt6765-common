@@ -12,6 +12,7 @@ on init
     setprop persist.vendor.mtk.volte.enable 0
     setprop persist.vendor.mtk_ct_volte_support 0
 
+on post-fs
     # bind mount libmtk-ril.so
     mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
 
