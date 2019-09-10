@@ -58,7 +58,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    ueventd.rc
 
 # Input
 PRODUCT_COPY_FILES += \
