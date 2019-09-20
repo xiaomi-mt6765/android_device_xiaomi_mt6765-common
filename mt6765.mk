@@ -32,6 +32,9 @@ TARGET_SCREEN_WIDTH := 720
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 28
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
