@@ -22,7 +22,6 @@ allow kpoc_charger kmsg_device:chr_file { write open };
 allow kpoc_charger rtc_device:chr_file { open read write };
 allow kpoc_charger init:unix_stream_socket connectto;
 allow kpoc_charger self:capability sys_boot;
-allow kpoc_charger alarm_device:chr_file write;
 allow kpoc_charger mtd_device:dir search;
 allow kpoc_charger mtd_device:chr_file read;
 allow kpoc_charger mtd_device:chr_file { read open };
