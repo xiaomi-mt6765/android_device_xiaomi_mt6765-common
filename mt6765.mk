@@ -10,6 +10,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# GMS
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
