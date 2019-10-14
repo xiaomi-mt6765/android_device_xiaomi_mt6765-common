@@ -1,3 +1,5 @@
+# Proprietary files for mt6765-common
+
 # Offline Charging
 bin/kpoc_charger
 etc/init/kpoc_charger.rc

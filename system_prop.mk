@@ -1,3 +1,5 @@
+# system.prop for mt6765-common
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.config.vc_call_vol_steps=7 \
