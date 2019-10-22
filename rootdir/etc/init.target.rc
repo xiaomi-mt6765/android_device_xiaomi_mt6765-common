@@ -8,6 +8,9 @@ on init
     setprop persist.mtk_ims_support 0
     setprop persist.mtk_epdg_support 0
 
+    # bind mount libmtk-ril.so
+    mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
+
 on property:vold.decrypt=trigger_restart_framework
     setprop persist.mtk_ims_support 0
     setprop persist.mtk_epdg_support 0
