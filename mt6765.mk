@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.enableswap \
     init.target.rc \
     ueventd.rc
 
