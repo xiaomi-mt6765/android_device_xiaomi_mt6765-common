@@ -1,7 +1,6 @@
 on boot
     # DT2W
-    chown system system /proc/gesture/onoff
-    chown 0660 /proc/gesture/onoff
+    write /proc/gesture/onoff 1
 
 on init
     # force properties for mtkmal
