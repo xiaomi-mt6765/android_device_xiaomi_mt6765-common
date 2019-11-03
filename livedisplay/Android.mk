@@ -18,7 +18,6 @@ include $(CLEAR_VARS)
 LOCAL_INIT_RC := lineage.livedisplay@2.0-service-mediatek.rc
 LOCAL_MODULE := lineage.livedisplay@2.0-service-mediatek
 LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SHARED_LIBRARIES := \
 	libbase \
 	libbinder \
