@@ -1,5 +1,8 @@
 # Proprietary files for mt6765-common
 
+# Hotspot
+bin/netd|e9068fcdf0f5689b7187fa8b6a73902e3abbc82d
+
 # Offline Charging
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
