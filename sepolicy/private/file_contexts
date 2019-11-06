@@ -1,2 +1,5 @@
 # Trust HAL
 /system/bin/hw/lineage\.trust@1\.0-service                             u:object_r:hal_trust_default_exec:s0
+
+# Kernel Power Off Charging (KPOC)
+/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
