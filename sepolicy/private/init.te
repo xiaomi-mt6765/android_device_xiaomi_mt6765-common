@@ -2,3 +2,6 @@
 domain_trans(init, rootfs, adbd)
 
 allow vendor_init vendor_init:capability { sys_module };
+
+# Allow init to mount vendor configs
+allow init vendor_file:file mounton;
