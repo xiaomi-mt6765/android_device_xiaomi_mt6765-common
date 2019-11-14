@@ -72,7 +72,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /proc/gesture/onoff
+TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true

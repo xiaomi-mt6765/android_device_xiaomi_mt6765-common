@@ -1,7 +1,7 @@
 on boot
     # DT2W
-    chown system system /proc/gesture/onoff
-    chown 0660 /proc/gesture/onoff
+    chown system system /proc/touchpanel/double_tap_enable
+    chown 0660 /proc/touchpanel/double_tap_enable
 
 on init
     # force properties for mtkmal
