@@ -36,4 +36,12 @@ allow kpoc_charger sysfs_dt_firmware_android:dir { read search open };
 allow kpoc_charger proc_cmdline:file r_file_perms;
 allow kpoc_charger sysfs_battery_warning:file r_file_perms;
 
+allow kpoc_charger logo_block_device:blk_file { read open };
+allow kpoc_charger logo_device:chr_file read;
+allow kpoc_charger logo_device:chr_file open;
+allow kpoc_charger bootdevice_block_device:blk_file read;
+allow kpoc_charger bootdevice_block_device:blk_file open;
+allow kpoc_charger sysfs_vbus:file r_file_perms;
+allow kpoc_charger sysfs_pump_express:file r_file_perms;
+allow kpoc_charger debugfs_wakeup_sources:file r_file_perms;
 
