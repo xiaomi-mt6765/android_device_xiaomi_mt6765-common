@@ -1,23 +1,23 @@
 # Proprietary files for mt6765-common
 
 # Audio
-lib/libaaudioservice.so         
-lib/libaudioflinger.so                 
-lib/libaudiopolicymanagerdefault.so  
-lib/libaudioutils.so           
-lib/libaaudio.so                
-lib/libaudiomanager.so                 
-lib/libaudiopolicymanager.so         
+lib/libaaudioservice.so
+lib/libaudioflinger.so
+lib/libaudiopolicymanagerdefault.so
+lib/libaudioutils.so
+lib/libaaudio.so
+lib/libaudiomanager.so
+lib/libaudiopolicymanager.so
 lib/libbessound_hd_mtk.so
-lib/libaudioclient.so           
-lib/libaudio_param_parser-sys.so       
-lib/libaudiopolicyservice.so         
+lib/libaudioclient.so
+lib/libaudio_param_parser-sys.so
+lib/libaudiopolicyservice.so
 lib/libmtkaudio_utils.so
-lib/libaudiocomponentengine.so  
-lib/libaudiopolicycustomextensions.so  
-lib/libaudioprocessing.so            
+lib/libaudiocomponentengine.so
+lib/libaudiopolicycustomextensions.so
+lib/libaudioprocessing.so
 lib/libsoundtriggerservice.so
-lib/libaudiocustparam.so        
+lib/libaudiocustparam.so
 lib/libaudiopolicyenginedefault.so
 lib/libaudiotoolkit.so
 
