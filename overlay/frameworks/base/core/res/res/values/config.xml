@@ -343,4 +343,8 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">17</integer>
+	
+    <!-- Notification LED support -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+    <bool name="config_intrusiveNotificationLed">true</bool>
 </resources>
