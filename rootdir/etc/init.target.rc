@@ -7,9 +7,10 @@ on boot
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
 
 on init
-    # force properties for mtkmal
-    setprop persist.mtk_ims_support 0
-    setprop persist.mtk_epdg_support 0
+    # Force disable all VoLTE support -- it requires intensive modification of frameworks
+    # without framework support it creates all sorts of problems. Disable it.
+    setprop persist.vendor.mtk.volte.enable 0
+    setprop persist.vendor.mtk_ct_volte_support 0
 
     # bind mount libmtk-ril.so
     mount none /system/lib/libmtk-ril.so /vendor/lib/libmtk-ril.so bind
