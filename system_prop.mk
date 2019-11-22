@@ -1,9 +1,5 @@
 # system.prop for mt6765-common
 
-# Audio
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-   ro.config.vc_call_vol_steps=7
-
 # Performance
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.mtk_perf_simple_start_win=1 \
