@@ -25,7 +25,7 @@ allow kpoc_charger self:capability sys_boot;
 allow kpoc_charger rootfs:file r_file_perms;
 allow kpoc_charger sysfs_leds:dir r_dir_perms;
 
-r_dir_file(kpoc_charger, sysfs_batteryinfo)
+# r_dir_file(kpoc_charger, sysfs_batteryinfo)
 allow kpoc_charger sysfs_power:file { open read write getattr };
 allow kpoc_charger sysfs_dt_firmware_android:dir { read search open };
 allow kpoc_charger proc_cmdline:file r_file_perms;
