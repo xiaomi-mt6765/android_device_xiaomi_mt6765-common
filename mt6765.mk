@@ -33,6 +33,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl \
