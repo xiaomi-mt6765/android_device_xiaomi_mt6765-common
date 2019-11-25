@@ -9,3 +9,7 @@
 
 # RIL
 /system/lib/libmtk-ril\.so u:object_r:vendor_file:s0
+
+# Rootfs
+/persist(/.*)? u:object_r:persist_file:s0
+
