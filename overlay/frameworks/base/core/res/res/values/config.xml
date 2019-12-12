@@ -347,4 +347,9 @@
     <!-- Notification LED support -->
     <bool name="config_intrusiveBatteryLed">true</bool>
     <bool name="config_intrusiveNotificationLed">true</bool>
+    <bool name="config_ledCanPulse">true</bool>
+	
+    <!-- Notification LED does not support color, so we disable it. -->
+    <bool name="config_multiColorNotificationLed">false</bool>
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
