@@ -33,6 +33,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl \
