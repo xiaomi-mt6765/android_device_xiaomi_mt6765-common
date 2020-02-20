@@ -1,8 +1,0 @@
-on post-fs-data
-    mkdir /data/local/tmp/logs 0775 system system
-    start persistentLogging
-
-service persistentLogging /system/bin/logcat -f /data/local/tmp/logs/log
-    user system
-    group root system log
-    disabled
