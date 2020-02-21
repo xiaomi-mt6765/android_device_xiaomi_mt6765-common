@@ -44,15 +44,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# GPS
-PRODUCT_PACKAGES += \
-    libcurl \
-    libandroid_net
-
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
