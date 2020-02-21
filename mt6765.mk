@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# KPOC
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
