@@ -40,6 +40,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl \
