@@ -22,7 +22,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sys.fw.bservice_limit=5 \
     ro.sys.fw.bservice_age=5000 \
     ro.am.reschedule_service=true \
-    ro.sys.fw.bg_apps_limit=24 
+    ro.sys.fw.bg_apps_limit=24
+
+# IMS
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1
 
 # OMX
 PRODUCT_PRODUCT_PROPERTIES  += \

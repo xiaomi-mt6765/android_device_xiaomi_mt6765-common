@@ -7,5 +7,38 @@ lib/libsysenv_system.so
 # Camera
 product/vendor_overlay/28/lib/libpdx_default_transport.so|5f5f1931fc40b730af2c0cbcdbf9605ffcdd1070
 
+# MTK-IMS from begonia - begonia-user-10-QP1A.190711.020-20.6.4-release-keys
+-framework/mediatek-common.jar|f68207ae1e4d4a4fc88ecb3eff911a849617089d
+-framework/mediatek-framework.jar|922a3c2daa8de8f9a42786a9c859be589e66a4d3
+-framework/mediatek-ims-base.jar|4256c746bcbd6ee4d747bbb100fbf9cb14649882
+-framework/mediatek-ims-common.jar|1a69cde555f34fd4bf8a5299d4fb958b82ea6a21
+-framework/mediatek-telecom-common.jar|2f811691116ec2f9de2fe39b86d3453b0a863551
+-framework/mediatek-telephony-base.jar|b38213bf6fd0f1d54e0376159c7b3ab40b3a3b44
+-framework/mediatek-telephony-common.jar|9927488181e2aae58f26cc1658cc069d90064c7f
+-priv-app/ImsService/ImsService.apk|0fa5cebb02742ce7126ef20330bbcfcda75fdb74
+bin/vtservice|287b76b160221c971671642eaa736bc207f4bd11
+etc/init/init.vtservice.rc|d9f57469d0ecf6b84e53901b8ea7379022c9b49e
+framework/mediatek-ims-extension-plugin.jar|5aae16437bcfae7da5474a17ab08de4ea67e000a
+framework/mediatek-ims-legacy.jar|f5afaf1dda54140bfd35048a4506c341d4a4c331
+framework/mediatek-ims-wwop-common.jar|eb4b95bb66d1b03a79290b9c1811e691e33a4785
+lib/libcomutils.so|c97f2d969f058ced2bc9349fe365133839893952
+lib/libimsma.so|018b07c47a2d79aae075ffa7958d81bf5477f72c
+lib/libimsma_adapt.so|93887059340d7c298514bfa827fbf46d274f4c3c
+lib/libimsma_rtp.so|25eec34c9ace88f9edf1d74aa8b08eff338a6c3c
+lib/libimsma_socketwrapper.so|018b07c47a2d79aae075ffa7958d81bf5477f72csg
+lib/libmtk_vt_service.so|b75b697c0ba2f45e6a49e710365455ab99bae397
+lib/libmtk_vt_wrapper.so|2cb361e20b46b1daea18023792c4e77539fa1a8c
+lib/libmtkaudio_utils.so|eabf125db15c0f236f3fd14c478862618d96113d
+lib/libmtkavenhancements.so|7b3ec90ab63be3cb0fffa431021ff9b9eaf6c52d
+lib/libmtklimiter.so|2dc775d3a8a8ea20b06d384fed5164c3ee2308e9
+lib/libmtkperf_client.so|e147f8644fee5a74ac03fca27e33e474d4e945aa
+lib/libmtkshifter.so|eee0806149e034a32589d59fdabded74c8432ea0
+lib/libsignal.so|d16cdd80ab43b4fb77f5f962af6bac0e8d182c13
+lib/libsink.so|c8d63563a52322c830252de9e779bb5a5d6a9116
+lib/libsource.so|8e99435cf27536e310f7374ccb44a26571e23cc2
+lib/libvcodec_cap.so|319f3eff59a6538c5d640d274cb4b90b0149f18f
+lib/libvcodec_capenc.so|5fc3b49267bc20dcb34ae23adbee45660644b34b
+lib/libvt_avsync.so|5c53da9231c241f86a15741cf620380c5d0d01df
+
 # RIL
 vendor/lib/libmtk-ril.so:product/vendor_overlay/28/lib/libmtk-ril.so|e9d80dbed4a83df78dd0cfb3e40733b6b2943703
