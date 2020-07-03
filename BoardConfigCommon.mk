@@ -108,3 +108,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
+
+TARGET_USES_MKE2FS := true
+
