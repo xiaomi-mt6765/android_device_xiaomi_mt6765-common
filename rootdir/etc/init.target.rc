@@ -2,12 +2,6 @@ on boot
     # DT2W
     chown system system /proc/touchpanel/double_tap_enable
 
+    # LiveDisplay
     chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
-
-on init
-    # Force disable all VoLTE support -- it requires intensive modification of frameworks
-    # without framework support it creates all sorts of problems. Disable it.
-    setprop persist.vendor.mtk.volte.enable 0
-    setprop persist.vendor.mtk_ct_volte_support 0
-
