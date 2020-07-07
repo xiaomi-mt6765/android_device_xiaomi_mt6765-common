@@ -1,1 +1,0 @@
-genfscon sysfs /board_properties u:object_r:sysfs_board_properties:s0
