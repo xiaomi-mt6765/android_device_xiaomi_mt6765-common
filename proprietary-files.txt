@@ -2,7 +2,6 @@
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
-lib/libsysenv_system.so
 
 # Camera
 product/vendor_overlay/28/lib/libpdx_default_transport.so|5f5f1931fc40b730af2c0cbcdbf9605ffcdd1070
