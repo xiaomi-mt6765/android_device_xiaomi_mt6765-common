@@ -1,5 +1,3 @@
 type sysfs_battery_warning, fs_type, sysfs_type;
 type sysfs_vbus, fs_type, sysfs_type;
 type sysfs_pump_express, fs_type, sysfs_type;
-type persist_file, file_type;
-
