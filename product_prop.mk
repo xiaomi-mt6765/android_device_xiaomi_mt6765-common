@@ -15,6 +15,14 @@ PRODUCT_PRODUCT_PROPERTIES  += \
 PRODUCT_PRODUCT_PROPERTIES  += \
    media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# Memory optimization
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sys.fw.bservice_enable=true \
+    ro.sys.fw.bservice_limit=5 \
+    ro.sys.fw.bservice_age=5000 \
+    ro.am.reschedule_service=true \
+    ro.sys.fw.bg_apps_limit=24 
+
 # OMX
 PRODUCT_PRODUCT_PROPERTIES  += \
    debug.stagefright.omx_default_rank.sw-audio=1 \
