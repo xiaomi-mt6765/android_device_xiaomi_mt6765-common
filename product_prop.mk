@@ -9,7 +9,8 @@ PRODUCT_PRODUCT_PROPERTIES  += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES  += \
-    debug.sf.enable_gl_backpressure=1
+    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.disable_hwc=1
 
 # Media
 PRODUCT_PRODUCT_PROPERTIES  += \
