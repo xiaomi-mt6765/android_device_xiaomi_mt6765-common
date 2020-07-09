@@ -6,6 +6,8 @@ typeattribute kpoc_charger coredomain;
 
 init_daemon_domain(kpoc_charger)
 
+permissive kpoc_charger;
+
 hal_client_domain(kpoc_charger, hal_light)
 
 allow kpoc_charger block_device:dir search;
