@@ -1,7 +1,6 @@
 on boot
     # DT2W
     chown system system /proc/touchpanel/double_tap_enable
-    chown 0660 /proc/touchpanel/double_tap_enable
 
     chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
     chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
