@@ -5,3 +5,6 @@ lib/libshowlogo.so
 
 # Camera
 product/vendor_overlay/28/lib/libpdx_default_transport.so|5f5f1931fc40b730af2c0cbcdbf9605ffcdd1070
+
+# RIL
+vendor/lib/libmtk-ril.so:product/vendor_overlay/28/lib/libmtk-ril.so|e9d80dbed4a83df78dd0cfb3e40733b6b2943703
