@@ -39,6 +39,10 @@ lib/libsource.so|8e99435cf27536e310f7374ccb44a26571e23cc2
 lib/libvcodec_cap.so|319f3eff59a6538c5d640d274cb4b90b0149f18f
 lib/libvcodec_capenc.so|5fc3b49267bc20dcb34ae23adbee45660644b34b
 lib/libvt_avsync.so|5c53da9231c241f86a15741cf620380c5d0d01df
+lib/vendor.mediatek.hardware.videotelephony@1.0.so|07a7153626f9fcb52eac7a41f9df2c5ed92475db
+
+# Permissions from begonia - begonia-user-10-QP1A.190711.020-20.6.4-release-keys
+etc/permissions/privapp-permissions-mediatek.xml|eb774d23f8f95cfeb73d731215c2eb3cc89d48ac
 
 # RIL
 vendor/lib/libmtk-ril.so:product/vendor_overlay/28/lib/libmtk-ril.so|e9d80dbed4a83df78dd0cfb3e40733b6b2943703
