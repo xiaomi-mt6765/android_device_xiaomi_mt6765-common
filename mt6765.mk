@@ -95,5 +95,8 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
