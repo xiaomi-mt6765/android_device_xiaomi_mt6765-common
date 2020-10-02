@@ -46,7 +46,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 
 # Kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x11b00000 --second_offset 0x00f00000 --tags_offset 0x07880000
@@ -87,7 +87,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 # SELinux
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
-WITH_PERMISSIVE := true
 
 # Symbols
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
