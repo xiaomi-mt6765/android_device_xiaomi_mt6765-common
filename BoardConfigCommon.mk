@@ -89,6 +89,9 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 WITH_PERMISSIVE := true
 
+# Symbols
+TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+
 # Treble
 BOARD_VNDK_VERSION  := current
 TARGET_COPY_OUT_VENDOR := vendor
