@@ -15,18 +15,10 @@ namespace android {
         _ZN7android21SurfaceComposerClient23getInternalDisplayTokenEv();
     }
 
-    extern "C" void _ZN7android14SurfaceControl7destroyEv(void);
+    extern "C" void _ZN7android14SurfaceControlD0Ev(void);
 
     extern "C" void _ZN7android14SurfaceControl5clearEv(void){
-        _ZN7android14SurfaceControl7destroyEv();
-    }
-
-    extern "C" void SurfaceControl::destroy()
-    {
-        if (isValid()) {
-        SurfaceComposerClient::Transaction().reparent(this, nullptr).apply();
-        }
-        release();
+        _ZN7android14SurfaceControlD0Ev();
     }
 
     extern "C" void _ZN7android4base10StartsWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKc() { }
