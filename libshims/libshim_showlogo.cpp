@@ -20,7 +20,9 @@ namespace android {
     extern "C" void _ZN7android14SurfaceControl5clearEv(void){
         _ZN7android14SurfaceControlD0Ev();
     }
-
+    
+    extern "C" void _ZTVN7android13LayerMetadataE() { }
+    
     extern "C" void _ZN7android4base10StartsWithERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPKc() { }
 
 }
