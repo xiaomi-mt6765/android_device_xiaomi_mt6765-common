@@ -91,6 +91,7 @@ WITH_PERMISSIVE := true
 # Treble
 BOARD_VNDK_VERSION  := current
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := system/product
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
