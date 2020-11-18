@@ -83,6 +83,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# ImsInit hack
+PRODUCT_PACKAGES += \
+    ImsInit
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
