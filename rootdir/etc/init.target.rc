@@ -10,6 +10,10 @@ on init
     # without framework support it creates all sorts of problems. Disable it.
     setprop persist.vendor.mtk.volte.enable 0
     setprop persist.vendor.mtk_ct_volte_support 0
+    setprop persist.dbg.allow_ims_off 1
+    setprop persist.dbg.volte_avail_ovr 1
+    setprop persist.dbg.vt_avail_ovr 1
+    setprop persist.dbg.wfc_avail_ovr 1
 
 on property:sys.boot_completed=1
     # Toggle airplane mode on and off on boot to enable volte.
