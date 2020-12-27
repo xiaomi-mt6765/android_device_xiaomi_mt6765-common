@@ -14,6 +14,7 @@ on init
     setprop persist.dbg.volte_avail_ovr 1
     setprop persist.dbg.vt_avail_ovr 1
     setprop persist.dbg.wfc_avail_ovr 1
+    setprop persist.vendor.vilte_support 0
 
 on property:sys.boot_completed=1
     # Toggle airplane mode on and off on boot to enable volte.
