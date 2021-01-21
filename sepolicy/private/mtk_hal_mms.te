@@ -1,0 +1,2 @@
+type mtk_hal_mms_hwservice, hwservice_manager_type;
+allow { appdomain -isolated_app }  mtk_hal_mms_hwservice:hwservice_manager find;
