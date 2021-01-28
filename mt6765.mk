@@ -90,7 +90,8 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # IMS
 PRODUCT_PACKAGES += \
-    mtk-ims
+    mtk-ims \
+    mtk-ims-telephony
 
 # ImsInit hack
 PRODUCT_PACKAGES += \
