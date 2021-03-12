@@ -8,6 +8,11 @@ namespace android {
         _ZN7android21SurfaceComposerClient13createSurfaceERKNS_7String8EjjijPNS_14SurfaceControlENS_13LayerMetadataE(name, w, h, format, flags, nullptr, metadata);
     }
 
+    extern "C" void _ZN7android21SurfaceComposerClient11Transaction20setDisplayProjectionERKNS_2spINS_7IBinderEEEjRKNS_4RectES9_(const sp<IBinder>& token,uint32_t orientation,const android::Rect& layerStackRect,const android::Rect& displayRect) {
+  android::SurfaceComposerClient::Transaction *t = nullptr;
+  t->setDisplayProjection(token, static_cast<android::ui::Rotation>(orientation), layerStackRect, displayRect);
+    }
+
     extern "C" void _ZN7android21SurfaceComposerClient23getInternalDisplayTokenEv(void);
 
     extern "C" void _ZN7android21SurfaceComposerClient17getBuiltInDisplayEi(int32_t id){
