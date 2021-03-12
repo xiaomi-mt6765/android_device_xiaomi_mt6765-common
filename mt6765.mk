@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_showlogo
+
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
